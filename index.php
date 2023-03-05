@@ -54,6 +54,7 @@ while(sizeof($randomNumbers)>0)
 
 }
 //$tempArray = quick_sort($randomNumbers);
+
 $time_end = microtime(true);
 $execution_time = ($time_end - $time_start)/60;
 foreach($tempArray as $x){
